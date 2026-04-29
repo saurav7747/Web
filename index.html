@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav Studio - Build Imagination into Reality</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loader Screen -->
+    <div class="loader">
+        <div class="loader-logo">
+            <span class="logo-s">S.</span>
+            <div class="loader-glow"></div>
+        </div>
+        <div class="loader-text">Loading Saurav Studio...</div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-s" id="logoS">S.</span>
+                <span class="logo-text">Saurav Studio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="bg-grid"></div>
+            <div class="floating-circle c1"></div>
+            <div class="floating-circle c2"></div>
+            <div class="floating-circle c3"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" id="heroTitle">
+                Saurav Roy
+            </h1>
+            <div class="typing-container">
+                <span class="typed-text" id="typedText"></span>
+                <span class="cursor"></span>
+            </div>
+            <p class="hero-tagline">Build imagination into a reality.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Saurav</h2>
+            <div class="about-card">
+                <pre><code id="sauravCode">const sauravRoy = {
+  name: "Saurav Roy",
+  age: 15,
+  born: 2011,
+  location: "Bihar, India",
+  role: "Creator & Developer",
+  education: "11th Grade Student",
+  startedCoding: "September 2025",
+  device: "Mobile Phone",
+  firstSkill: "CapCut Editing",
+  passions: ["Gaming", "Music", "Editing", "Tech"],
+  goal: "Freelancing, Money, Trust & Power",
+  mindset: "Humans have no limits.",
+  mission: "Build imagination into reality."
+}</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="10">0</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1">0</div>
+                    <div class="stat-label">Device</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number infinite">∞</div>
+                    <div class="stat-label">Vision</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="2025">2024</div>
+                    <div class="stat-label">Started</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-tilt>
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <i class="fas fa-database"></i>
+                    <h3>Firebase</h3>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI Design</h3>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <i class="fas fa-video"></i>
+                    <h3>Video Editing</h3>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Branding</h3>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Creative Thinking</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Timeline -->
+    <section class="timeline">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <div class="timeline-container">
+                <div class="timeline-item" data-year="2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Sept 2025</h3>
+                        <p>Started Coding</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Learned Web Development</h3>
+                        <p>Mastered HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Built Multiple Projects</h3>
+                        <p>Created 10+ real-world projects</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2026">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2026</h3>
+                        <p>Building Saurav Studio Brand</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-tilt>
+                    <div class="project-image" style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%)">
+                        <div class="project-overlay">
+                            <h3>Saurav Portfolio</h3>
+                            <p>Premium portfolio built with pure HTML/CSS/JS</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Saurav Portfolio</h3>
+                        <p>Next-level personal portfolio with premium animations and mobile-first design.</p>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-tilt>
+                    <div class="project-image" style="background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%)">
+                        <div class="project-overlay">
+                            <h3>ZordPage</h3>
+                            <p>Dynamic landing page with animations</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ZordPage</h3>
+                        <p>Modern landing page with smooth scroll animations and glassmorphism effects.</p>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-tilt>
+                    <div class="project-image" style="background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%)">
+                        <div class="project-overlay">
+                            <h3>Great Project</h3>
+                            <p>Premium web application</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Great Project</h3>
+                        <p>Full-stack web application with Firebase backend and responsive design.</p>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phone Builder Section -->
+    <section class="phone-builder">
+        <div class="container">
+            <div class="phone-content">
+                <h2>Built Using Only a Phone 📱</h2>
+                <p class="phone-subtitle">No expensive setup. No excuses. Just vision and consistency.</p>
+                <div class="phone-visual">
+                    <div class="phone">
+                        <div class="phone-screen">
+                            <div class="code-lines">
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p id="email">sauravsimariya4321@gmail.com</p>
+                    </div>
+                    <button class="copy-btn" data-copy="email">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <div>
+                        <h3>Instagram</h3>
+                        <p>@indian_zord</p>
+                    </div>
+                    <a href="https://instagram.com/indian_zord" class="contact-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span class="logo-s footer-logo">S.</span>
+                <p>Crafted by Saurav Roy © 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+  </html>
